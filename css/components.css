@@ -1,0 +1,126 @@
+/* ─────────────────────────────
+   🧹 Botões (Sistema Base)
+───────────────────────────── */
+
+/* Estilo Geral / Base */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Tipografia */
+    font-family: var(--font-primary);
+    font-size: var(--small);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    text-decoration: none !important;
+    
+    /* Espaçamento e Forma */
+    padding: var(--space-md) var(--space-2xl);
+    border-radius: var(--radius);
+    cursor: pointer;
+    
+    /* Transição */
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+/* Feedback de clique para todos */
+.btn:active {
+    transform: scale(0.96);
+}
+
+/* ─── Variação 1: Ouro (Primário / Chamada para Ação) ─── */
+.btn--primary {
+    background: var(--gold-gradient);
+    color: var(--bg-dark-primary) !important;
+    box-shadow: 0 4px 15px rgba(200, 162, 74, 0.2);
+}
+
+.btn--primary:hover {
+    background: var(--gold-soft);
+    box-shadow: 0 6px 20px rgba(200, 162, 74, 0.4);
+    transform: translateY(-2px);
+}
+
+/* ─── Variação 2: Ghost / Outline (Secundário / Navegação) ─── */
+.btn--outline {
+    background: transparent;
+    color: var(--text-light-primary) !important;
+    border-color: var(--border-subtle-dark);
+    backdrop-filter: blur(4px);
+}
+
+.btn--outline:hover {
+    border-color: var(--gold-primary);
+    color: var(--gold-primary) !important;
+    background: rgba(200, 162, 74, 0.05);
+}
+
+/* ─── Variação Extra: Dark (Para fundos claros) ─── */
+.btn--dark {
+    background: var(--bg-dark-primary);
+    color: var(--text-light-primary) !important;
+}
+
+.btn--dark:hover {
+    background: var(--bg-dark-secondary);
+    border-color: var(--gold-primary);
+}
+
+.btn--primary::after {
+    content: '';
+    position: absolute;
+    top: 0; left: -100%;
+    width: 50%; height: 100%;
+    background: linear-gradient(
+        to right, 
+        transparent, 
+        rgba(255, 255, 255, 0.3), 
+        transparent
+    );
+    transform: skewX(-25deg);
+    transition: 0.5s;
+}
+
+.btn--primary:hover::after {
+    left: 150%;
+}
+
+/* ─────────────────────────────
+   📜 Barra de Rolagem Versalhes
+   ───────────────────────────── */
+
+/* 1. Área total da barra (Track) */
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--bg-dark-primary);
+}
+
+/* 2. O "Polegar" da barra (Thumb/O que desliza) */
+::-webkit-scrollbar-thumb {
+  background: var(--bg-dark-tertiary);
+  border-radius: var(--radius);
+  border: 2px solid var(--bg-dark-primary);
+  transition: var(--transition-base);
+}
+
+/* 3. Efeito de Intervenção (Hover) */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold-gradient);
+}
+
+/* 4. O "Caminho" da barra (Track) */
+::-webkit-scrollbar-track {
+  background: var(--bg-dark-primary);
+  border-left: 1px solid var(--border-subtle-dark);
+}
+
+/* Para Firefox (Suporte limitado, mas necessário) */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--bg-dark-tertiary) var(--bg-dark-primary);
+}

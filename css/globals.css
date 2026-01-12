@@ -1,0 +1,349 @@
+/* ─────────────────────────────
+  🧹 Variáveis
+───────────────────────────── */
+
+:root {
+
+  /* ───── Backgrounds ───── */
+  --bg-dark-primary: #1c1c1e;
+  --bg-dark-secondary: #232326;
+  --bg-dark-tertiary: #4a4a4a;
+  --bg-light-primary: #faf8f4;
+  --bg-light-secondary: #f4f1ec;
+
+  --bg-gradient-dark: linear-gradient(180deg, #1c1c1e 0%, #232326 100%);
+  --bg-gradient-light: linear-gradient(180deg, #faf8f4 0%, #f4f1ec 100%);
+
+  /* ───── Text ───── */
+  --text-dark-primary: #1a1a1a;
+  --text-dark-secondary: #4a4a4a;
+  --text-light-primary: #f5f5f5;
+  --text-light-secondary: #cfcfcf;
+  --text-muted: #9a9a9a;
+
+  /* ───── Gold System ───── */
+  --gold-primary: #c8a24a;
+  --gold-soft: #e3c97a;
+  --gold-muted: #9f8a52;
+  --gold-gradient: linear-gradient(135deg, #c8a24a, #e3c97a, #9f8a52);
+
+  /* ───── Matrizes de Intervenção ───── */
+  --accent-01: #d4af37; 
+  --accent-02: #b82e39; 
+  --accent-03: #16b95a; 
+  --accent-04: #2074b4; 
+  --accent-05: #9334a7;
+
+  /* ───── UI ───── */
+  --border-subtle-dark: rgba(255, 255, 255, 0.08);
+  --border-subtle-light: rgba(0, 0, 0, 0.08);
+  --shadow-soft: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+
+  /* ───── Typography ───── */
+  --font-primary: 'Poppins', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* ───── Headings ───── */
+  --h1: 4rem;
+  --h2: 3.2rem;
+  --h3: 2rem;
+  --h4: 1.6rem;
+  --h5: 1.4rem;
+  --h6: 1.2rem;
+
+  /* ───── Paragraphs ───── */
+  --font-base: 1.4rem;
+  --font-minor:1.2rem;
+  --small: 1rem;
+
+    /* ───── Fonte Weight ───── */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+  /* ───── Line heights ───── */
+  --lh-tight: 1.2;
+  --lh-base: 1.6;
+  --lh-loose: 1.8;
+
+  /* ───── Spacing ───── */
+  --space-xxs: 0.4rem;
+  --space-xs: 0.8rem;
+  --space-sm: 1.2rem;
+  --space-md: 1.6rem;
+  --space-lg: 2.4rem;
+  --space-xl: 3.2rem;
+  --space-2xl: 4.8rem;
+  --space-3xl: 6rem;
+  --space-4xl: 8rem;
+
+  /* ───── Radius ───── */
+  --radius: 0.3rem;
+
+  /* ───── Motion ───── */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.25s ease;
+  --transition-slow: 0.4s ease;
+
+  /* ───── Z-index ───── */
+  --z-base: 1;
+  --z-header: 10;
+  --z-overlay: 50;
+  --z-modal: 100;
+
+  /* ───── Layout ───── */
+  --content-max-width: 90%;
+}
+
+/* ─────────────────────────────
+  🧹 Reset & Base
+───────────────────────────── */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-primary);
+  background: var(--bg-dark-secondary);
+  color: var(--text-light-primary);
+  font-size: var(--font-base);
+  line-height: var(--lh-base);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+:focus-visible {
+  outline: 0.2rem solid var(--gold-primary);
+  outline-offset: 0.2rem;
+}
+
+/* ─────────────────────────────
+  🧹 Links
+───────────────────────────── */
+
+a {
+  color: var(--gold-primary);
+  text-decoration: none;
+  transition: color var(--transition-base), text-decoration var(--transition-base);
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--gold-soft);
+  text-decoration: underline;
+}
+
+a:active {
+  color: var(--gold-primary);
+}
+
+/* Versão light para fundos escuros */
+a.light {
+  color: var(--text-light-primary);
+}
+
+a.light:hover,
+a.light:focus-visible {
+  color: var(--gold-soft);
+}
+
+.text-gold {
+  color: var(--gold-primary);
+}
+
+/* ─────────────────────────────
+  🧹 Typography
+───────────────────────────── */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--fw-semibold);
+}
+
+h1 {
+  font-size: var(--h1);
+  margin-bottom: var(--space-2xl);
+}
+
+h2 {
+  font-size: var(--h2);
+  margin: var(--space-sm) 0;
+  line-height: var(--lh-tight);
+}
+
+h3 {
+  font-size: var(--h3);
+  margin-top: var(--space-xs);
+}
+
+h4 {
+  font-size: var(--h4);
+  margin: var(--space-sm) 0;
+  letter-spacing: 0.05rem;
+}
+
+h5 {
+  font-size: var(--font-base);
+  text-transform: uppercase;
+
+  color: var(--gold-primary);
+  margin-bottom: 1rem;
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: var(--space-md);
+  color: var(--text-muted);
+}
+
+/* Texto Recuado */
+.recuo {
+  text-indent: 2rem;
+  margin-bottom: var(--space-md);
+  line-height: var(--lh-loose);
+}
+
+/* Small */
+.small-title {
+  font-size: var(--small);
+}
+
+/* Código / Série */
+.serial-number {
+  margin-left: 1rem;
+  font-size: var(--h6);
+  font-family: var(--font-mono);
+  color: var(--gold-muted);
+  letter-spacing: 2px;
+  display: block;
+}
+
+/* Observações */
+.remark {
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: var(--lh-loose);
+}
+
+/* Quotes */
+.quote {
+  padding-left: var(--space-lg);
+  border-left: 0.3rem solid var(--gold-primary);
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: var(--space-lg);
+}
+
+.quote span {
+  display: block;
+  margin-top: var(--space-xs);
+  color: var(--gold-muted);
+}
+
+/* ─────────────────────────────
+  🧹 Lista com Ícone
+───────────────────────────── */
+
+.list-icon li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-size: var(--font-base);
+  color: var(--text-muted);
+}
+
+.list-icon li::before {
+  content: "\f0c8";
+  font-family: "Font Awesome 6 Free";
+  font-weight: var(--fw-bold);
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  font-size: 0.5rem;
+  color: var(--gold-muted);
+}
+
+/* ─────────────────────────────
+  🧹 Barra de Progresso Segmentada
+───────────────────────────── */
+
+.bar-segmented {
+  display: flex;
+  gap: 4px;
+}
+
+.bar-segment {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+}
+
+.bar-segment::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 0;
+  background: var(--gold-primary);
+  transition: width 0.3s ease;
+}
+
+.bar-segmented.p-20 .bar-segment:nth-child(1)::after,
+.bar-segmented.p-40 .bar-segment:nth-child(-n+2)::after,
+.bar-segmented.p-60 .bar-segment:nth-child(-n+3)::after,
+.bar-segmented.p-80 .bar-segment:nth-child(-n+4)::after,
+.bar-segmented.p-100 .bar-segment:nth-child(-n+5)::after {
+  width: 100%;
+}
+
+/* ─────────────────────────────
+  🧪 DEBUG (usar apenas em desenvolvimento)
+───────────────────────────── */
+
+/*
+* {
+  outline: 1px solid red !important;
+}
+*/

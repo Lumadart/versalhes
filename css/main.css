@@ -1,0 +1,11 @@
+/* Base */
+@import url('./globals.css');
+
+/* Layout */
+@import url('./layout.css');
+
+/* Componentes */
+@import url('./components.css');
+
+/* Páginas */
+@import url('./pages.css');
