@@ -10,11 +10,11 @@ function atualizarFundoPorHorario() {
     let imagemFundo = '';
 
     if (hora >= 5 && hora < 12) {
-        imagemFundo = "url('./assets/images/background/bg_manha.png')";
+        imagemFundo = "url('../assets/images/background/bg_manha.png')";
     } else if (hora >= 12 && hora < 18) {
-        imagemFundo = "url('./assets/images/background/bg_tarde.png')";
+        imagemFundo = "url('../assets/images/background/bg_tarde.png')";
     } else {
-        imagemFundo = "url('./assets/images/background/bg_noite.png')";
+        imagemFundo = "url('../assets/images/background/bg_noite.png')";
     }
 
     perfilView.style.setProperty('--bg-periodo', imagemFundo);
