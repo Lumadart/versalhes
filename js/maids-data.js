@@ -26,12 +26,12 @@ const maidsData = [
       { 
         name: "L'Absolu", 
         desc: "Espanador de ébano e plumas de cisne negro. Remove partículas microscópicas com a precisão de um maestro conduzindo uma sinfonia de vácuo absoluto.", 
-        img: "/assets/images/item/labsolu.png" 
+        img: "assets/images/item/labsolu.png" 
       },
       { 
         name: "H2O-Exorcist", 
         desc: "Borrifador de cristal técnico que dispersa névoa purificadora, dissolvendo manchas, resíduos emocionais e indícios persistentes de presença humana.", 
-        img: "/assets/images/item/h2o_exorcist.png" 
+        img: "assets/images/item/h2o_exorcist.png" 
       }
     ],
 
@@ -44,8 +44,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço reclamando o espaço para sua jurisdição. O primeiro gesto consiste em ajustar as cortinas, garantindo que a luz revele cada partícula de poeira que a visão inferior do proprietário tentou ignorar. Trabalha em um silêncio tão absoluto e opressor que a atmosfera compele o cliente à necessidade de pedir desculpas pela ousadia de respirar alto demais em sua presença. É um espetáculo de limpeza técnica e humilhação aristocrática.",
 
-    avatar: "/assets/images/avatar/reina.png",
-    fullBody: "/assets/images/personagem/reina.png",
+    avatar: "assets/images/avatar/reina.png",
+    fullBody: "assets/images/personagem/reina.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [120, 90, 82, 60, 0], 
@@ -73,12 +73,12 @@ const maidsData = [
       { 
         name: "Códice da Eficiência", 
         desc: "Clipboard de titânio acetinado utilizado para documentar a incompetência logística do cliente e traçar planos de ocupação estratégica.", 
-        img: "/assets/images/item/codice_eficiencia.png" 
+        img: "assets/images/item/codice_eficiencia.png" 
       },
       { 
         name: "O Juiz do Tempo", 
         desc: "Cronômetro de bolso regencial empregado para medir, em milésimos, quanto tempo o cliente desperdiça sendo improdutivo.", 
-        img: "/assets/images/item/juiz_tempo.png" 
+        img: "assets/images/item/juiz_tempo.png" 
       }
     ],
 
@@ -91,8 +91,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com passos ritmados e cronometrados. Ajusta os óculos, realiza anotações breves e dá início à execução, sem qualquer diálogo desnecessário. O processo termina com o estalo seco da caneta em sua prancheta e um olhar lateral que comunica que cada justificativa do cliente foi devidamente registrada como uma variável irrelevante e medíocre.",
 
-    avatar: "/assets/images/avatar/evelyn.png",
-    fullBody: "/assets/images/personagem/evelyn.png",
+    avatar: "assets/images/avatar/evelyn.png",
+    fullBody: "assets/images/personagem/evelyn.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [92, 120, 30, 55, 10], 
