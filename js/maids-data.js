@@ -637,12 +637,12 @@ const maidsData = [
       { 
         name: "The Swarm", 
         desc: "Pulverizadores de íon-prata: nano-drones esféricos que orbitam o ambiente, executando uma esterilização atmosférica contínua e erradicando patógenos.", 
-        img: "https://placeholder.us/100x100" 
+        img: "https://via.placeholder.com/100x100" 
       },
       { 
         name: "The Override", 
         desc: "Vínculo de interface direta oculto no indicador para controle absoluto de sistemas eletrônicos, reduzindo a domótica a uma extensão técnica da unidade.", 
-        img: "https://placeholder.us/100x100" 
+        img: "https://via.placeholder.com/100x100" 
       }
     ],
 
@@ -778,12 +778,12 @@ const maidsData = [
       { 
         name: "The Cortex", 
         desc: "Drive de cristal que permite a manifestação de sua consciência em qualquer hardware, garantindo vigilância e processamento ininterrupto.", 
-        img: "https://placeholder.us/100x100" 
+        img: "https://via.placeholder.com/100x100" 
       },
       { 
         name: "The Mute", 
         desc: "Protocolo de áudio que emite frequências subsônicas para adestrar aparelhos rebeldes e silenciar alarmes indesejados no ambiente.", 
-        img: "https://placeholder.us/100x100" 
+        img: "https://via.placeholder.com/100x100" 
       }
     ],
 
