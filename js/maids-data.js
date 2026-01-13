@@ -167,12 +167,12 @@ const maidsData = [
       { 
         name: "The Eradicator", 
         desc: "Esferas de detergente alquímico que detonam sobre manchas, decompondo resíduos em nível atômico sem ferir a integridade da fibra.", 
-        img: "/assets/images/item/the_eradicator.png" 
+        img: "./assets/images/item/the_eradicator.png" 
       },
       { 
         name: "Névoa de Ordem", 
         desc: "Vaporizador de pulso que emite vapores ionizados para esterilizar e remover rugas instantaneamente de cortinas e tapeçarias.", 
-        img: "/assets/images/item/nevoa_ordem.png" 
+        img: "./assets/images/item/nevoa_ordem.png" 
       }
     ],
 
@@ -185,8 +185,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com a aproximação íntima aos tecidos para ouvir o que sussurram. Prioriza a densidade emocional sobre a cor ou o corte. Transforma o ambiente em um santuário de vapor e fragrâncias. Ao concluir, sela o trabalho com uma bolha de polímero que, ao ser estourada, libera uma essência de pureza absoluta. É o renascimento das vestes.",
 
-    avatar: "/assets/images/avatar/marin.png",
-    fullBody: "/assets/images/personagem/marin.png",
+    avatar: "./assets/images/avatar/marin.png",
+    fullBody: "./assets/images/personagem/marin.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [65, 90, 10, 120, 25], 
@@ -214,12 +214,12 @@ const maidsData = [
       { 
         name: "The Verdict", 
         desc: "Cutelo de aço damasco utilizado para separar proteínas de impurezas e banir ingredientes indignos de sua seleção rigorosa.", 
-        img: "/assets/images/item/the_verdict.png" 
+        img: "./assets/images/item/the_verdict.png" 
       },
       { 
         name: "Aroma Dictator", 
         desc: "Infusor que satura o ambiente com notas aromáticas complexas, silenciando qualquer resistência do paladar através do olfato.", 
-        img: "/assets/images/item/aroma_dictator.png" 
+        img: "./assets/images/item/aroma_dictator.png" 
       }
     ],
 
@@ -232,8 +232,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço ditando o Veredito do Paladar, ignorando desejos mundanos para impor sequências de perfeição técnica. Observa o movimento das mãos e o brilho das pupilas, identificando a submissão sensorial. Questionar sua escolha é heresia; aceitá-la é um rito que encerra a insignificância do espectador.",
 
-    avatar: "/assets/images/avatar/carmilla.png",
-    fullBody: "/assets/images/personagem/carmilla.png",
+    avatar: "./assets/images/avatar/carmilla.png",
+    fullBody: "./assets/images/personagem/carmilla.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [80, 75, 120, 20, 0], 
