@@ -6,7 +6,7 @@ const VersalhesDB = {
     servicos: {
         limpeza: { 
             ref: "ID-001//CLN", 
-            capa: "assets/images/exemplo/limpeza.jpg",
+            capa: "./assets/images/exemplo/limpeza.jpg",
             tag: "Limpeza", 
             icone: "fa-broom", 
             titulo: "Purificação de Superfícies", 
@@ -25,7 +25,7 @@ const VersalhesDB = {
         },
 organizacao: { 
             ref: "#ID-002//ORG", 
-            capa: "assets/images/exemplo/organização.jpg",
+            capa: "./assets/images/exemplo/organização.jpg",
             tag: "Organização", 
             icone: "fa-box-archive", 
             titulo: "Imposição de Ordem", 
@@ -44,7 +44,7 @@ organizacao: {
         },
 culinaria: { 
             ref: "#ID-003//GSP", 
-            capa: "assets/images/exemplo/gastronomia.jpg",
+            capa: "./assets/images/exemplo/gastronomia.jpg",
             tag: "Culinária", 
             icone: "fa-utensils", 
             titulo: "Gastronomia e Protocolo", 
@@ -63,7 +63,7 @@ culinaria: {
         },
 lavanderia: { 
             ref: "#ID-004//TXM", 
-            capa: "assets/images/exemplo/lavanderia.jpg",
+            capa: "./assets/images/exemplo/lavanderia.jpg",
             tag: "Lavanderia", 
             icone: "fa-shirt", 
             titulo: "Descontaminação de Fibras", 
