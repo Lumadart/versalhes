@@ -105,8 +105,8 @@ const maidsData = [
       "Domínio teórico suficiente, porém prefere condenar o objeto à substituição por pura eficiência."
     ]
 },
-{ // MAID 03 - BEATRIX "TRIX" MILLER
-    name: "Beatrix \"Trix\" Miller",
+{ // MAID 03 - MARGO STERLING
+    name: "Margo Sterling",
     serial: "ED::GM-003|RST",
     alcunha: "ESTRUTURAL",
     color: "#bd610bff", 
@@ -138,8 +138,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com uma vistoria prática que expõe a negligência do dono. O primeiro gesto consiste em golpear pontos estratégicos de pressão e testar interruptores para traduzir a saúde técnica do recinto. Aplica intervenções diretas em sistemas hidráulicos, impondo uma estabilidade funcional que transforma defeitos em um insulto lógico diante de tamanha perícia.",
 
-    avatar: "./assets/images/avatar/beatrix.png",
-    fullBody: "./assets/images/personagem/beatrix.png",
+    avatar: "./assets/images/avatar/margo.png",
+    fullBody: "./assets/images/personagem/margo.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [90, 60, 17, 20, 125], 

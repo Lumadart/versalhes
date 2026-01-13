@@ -91,7 +91,7 @@ reparos: {
             toqueVersalhes: "Cobramos taxas adicionais por danos causados por 'minimalismo acidental'. Se parou de funcionar, não deveria ter existido.",
             foco: "Engenharia, hardware e estabilidade sistêmica.",
             equipe: { 
-                mestre: "Beatrix: Engenharia industrial, solda e reparos estruturais brutos.", 
+                mestre: "Margo: Engenharia industrial, solda e reparos estruturais brutos.", 
                 especialistas: [
                     "VESPER: Manutenção de hardware pesado e esterilização técnica.", 
                     "A.R.I.A.: Manutenção de sistemas inteligentes, redes e automação residencial.",
@@ -136,7 +136,7 @@ protocolos: [
         subtitulo: "A substituição total da sua vontade pela nossa eficiência.",
         idsServicos: ["organizacao", "lavanderia", "culinaria", "reparos"],
         entregas: "Gestão residencial total, Blindagem estrutural, Silêncio protocolar",
-        equipe: ["Evelyn", "Carmilla", "Bubbles", "Beatrix"],
+        equipe: ["Evelyn", "Carmilla", "Bubbles", "Margo"],
         nota: "Você não precisa pensar, nós já decidimos o que é melhor para você (e não é o que você quer).",
         preco: "8.900",
         condicao: "Reservado para elites que desistiram de fingir autonomia."
