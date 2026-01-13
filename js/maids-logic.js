@@ -180,4 +180,7 @@ function checarSetas() {
     btnProximo.style.pointerEvents = fimAlcancado ? 'none' : 'auto';
 }
 
-window.onload = inicializarCatalogo;
+document.addEventListener("DOMContentLoaded", () => {
+  inicializarCatalogo();
+  atualizarFundoPorHorario();
+});

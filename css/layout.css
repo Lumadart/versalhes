@@ -167,9 +167,7 @@ section {
     display: flex;
     align-items: center;
     background: #000;
-    /* Fundo absoluto para contraste */
-    background-image: url('./assets/images/background/roombg.jpg');
-    /* Substituir por imagem de mansão luxuosa ou maid em estilo anime */
+    background-image: url('assets/images/background/roombg.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;

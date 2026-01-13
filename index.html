@@ -369,8 +369,11 @@
 ───────────────────────────── -->
 
   <!-- Script principal / utilitários gerais -->
-  <script>
-  document.getElementById("current-year").textContent = new Date().getFullYear();
+<script defer>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("current-year").textContent =
+      new Date().getFullYear();
+  });
 </script>
 
   <!-- Script do header (scroll + glassmorphism) -->
@@ -380,7 +383,7 @@
   <script src="./js/maids-data.js" defer></script>
   <script src="./js/maids-logic.js" defer></script>
   <script src="./js/protocolos.js" defer></script>
-  <script src="./js/testimonials.js"></script>
+  <script src="./js/testimonials.js" defer></script>
 
 </body>
 
