@@ -26,12 +26,12 @@ const maidsData = [
       { 
         name: "L'Absolu", 
         desc: "Espanador de ébano e plumas de cisne negro. Remove partículas microscópicas com a precisão de um maestro conduzindo uma sinfonia de vácuo absoluto.", 
-        img: "assets/images/item/labsolu.png" 
+        img: "./assets/images/item/labsolu.png" 
       },
       { 
         name: "H2O-Exorcist", 
         desc: "Borrifador de cristal técnico que dispersa névoa purificadora, dissolvendo manchas, resíduos emocionais e indícios persistentes de presença humana.", 
-        img: "assets/images/item/h2o_exorcist.png" 
+        img: "./assets/images/item/h2o_exorcist.png" 
       }
     ],
 
@@ -44,8 +44,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço reclamando o espaço para sua jurisdição. O primeiro gesto consiste em ajustar as cortinas, garantindo que a luz revele cada partícula de poeira que a visão inferior do proprietário tentou ignorar. Trabalha em um silêncio tão absoluto e opressor que a atmosfera compele o cliente à necessidade de pedir desculpas pela ousadia de respirar alto demais em sua presença. É um espetáculo de limpeza técnica e humilhação aristocrática.",
 
-    avatar: "assets/images/avatar/reina.png",
-    fullBody: "assets/images/personagem/reina.png",
+    avatar: "./assets/images/avatar/reina.png",
+    fullBody: "./assets/images/personagem/reina.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [120, 90, 82, 60, 0], 
@@ -73,12 +73,12 @@ const maidsData = [
       { 
         name: "Códice da Eficiência", 
         desc: "Clipboard de titânio acetinado utilizado para documentar a incompetência logística do cliente e traçar planos de ocupação estratégica.", 
-        img: "assets/images/item/codice_eficiencia.png" 
+        img: "./assets/images/item/codice_eficiencia.png" 
       },
       { 
         name: "O Juiz do Tempo", 
         desc: "Cronômetro de bolso regencial empregado para medir, em milésimos, quanto tempo o cliente desperdiça sendo improdutivo.", 
-        img: "assets/images/item/juiz_tempo.png" 
+        img: "./assets/images/item/juiz_tempo.png" 
       }
     ],
 
@@ -91,8 +91,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com passos ritmados e cronometrados. Ajusta os óculos, realiza anotações breves e dá início à execução, sem qualquer diálogo desnecessário. O processo termina com o estalo seco da caneta em sua prancheta e um olhar lateral que comunica que cada justificativa do cliente foi devidamente registrada como uma variável irrelevante e medíocre.",
 
-    avatar: "assets/images/avatar/evelyn.png",
-    fullBody: "assets/images/personagem/evelyn.png",
+    avatar: "./assets/images/avatar/evelyn.png",
+    fullBody: "./assets/images/personagem/evelyn.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [92, 120, 30, 55, 10], 
@@ -120,12 +120,12 @@ const maidsData = [
       { 
         name: "V-Girdle", 
         desc: "Cinto de couro reforçado com sensores de ressonância, permitindo que ela “ouça” o desespero das paredes através do concreto armado.", 
-        img: "/assets/images/item/v_girdle.png" 
+        img: "./assets/images/item/v_girdle.png" 
       },
       { 
         name: "The Ultimatum", 
         desc: "Chave inglesa pesada usada para ajustes milimétricos e para convencer máquinas resistentes a retornarem ao serviço imediato.", 
-        img: "/assets/images/item/the_ultimatum.png" 
+        img: "./assets/images/item/the_ultimatum.png" 
       }
     ],
 
@@ -138,8 +138,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com uma vistoria prática que expõe a negligência do dono. O primeiro gesto consiste em golpear pontos estratégicos de pressão e testar interruptores para traduzir a saúde técnica do recinto. Aplica intervenções diretas em sistemas hidráulicos, impondo uma estabilidade funcional que transforma defeitos em um insulto lógico diante de tamanha perícia.",
 
-    avatar: "/assets/images/avatar/beatrix.png",
-    fullBody: "/assets/images/personagem/beatrix.png",
+    avatar: "./assets/images/avatar/beatrix.png",
+    fullBody: "./assets/images/personagem/beatrix.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [90, 60, 17, 20, 125], 
@@ -261,12 +261,12 @@ const maidsData = [
       { 
         name: "Kusanagi", 
         desc: "Vassoura de bambu reforçada com fita isolante e fios metálicos, usada para varrer detritos e manter o cliente a uma distância segura de sua jurisdição.", 
-        img: "/assets/images/item/kusanagi.png" 
+        img: "./assets/images/item/kusanagi.png" 
       },
       { 
         name: "Sudário das Impurezas", 
         desc: "Flanela de microfibra amarrada aos nós dos dedos como bandagem de boxe; limpa superfícies com estalos agressivos e absoluto desdém técnico.", 
-        img: "/assets/images/item/sudario_impurezas.png" 
+        img: "./assets/images/item/sudario_impurezas.png" 
       }
     ],
 
@@ -279,8 +279,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com o estalo metálico de sua vassoura contra o batente. Coleta o pó, encara o cliente com deboche e limpa o dedo no próprio sapato. Move-se com agressividade controlada, chutando qualquer obstáculo. O encerramento vem com um olhar de desprezo que proíbe qualquer tentativa futura de desordem.",
 
-    avatar: "/assets/images/avatar/rika.png",
-    fullBody: "/assets/images/personagem/rika.png",
+    avatar: "./assets/images/avatar/rika.png",
+    fullBody: "./assets/images/personagem/rika.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [100, 40, 2, 15, 85], 
@@ -308,12 +308,12 @@ const maidsData = [
       { 
         name: "Cronômetro do Vazio", 
         desc: "Relógio de bolso sem ponteiros que marca o tempo necessário para a realidade se dobrar à sua vontade absoluta.", 
-        img: "/assets/images/item/cronometro_vazio.png" 
+        img: "./assets/images/item/cronometro_vazio.png" 
       },
       { 
         name: "Grilhão das Dimensões", 
         desc: "Chaveiro de vidro fosco com chaves de fumaça sólida usadas para manipular sombras e selar o ambiente fora do espaço-tempo comum.", 
-        img: "/assets/images/item/grilhao_dimensoes.png" 
+        img: "./assets/images/item/grilhao_dimensoes.png" 
       }
     ],
 
@@ -326,8 +326,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço ao impor sua vontade silenciosa. As sombras se alongam em braços de geometrias impossíveis, executando a purificação em absoluto silêncio. Móveis se movem e o espaço é reorganizado sem contato físico. Ao final, realiza uma reverência lenta e inquietante, deixando o observador com vertigem e uma sensação de esterilidade absoluta.",
 
-    avatar: "/assets/images/avatar/eldra.png",
-    fullBody: "/assets/images/personagem/eldra.png",
+    avatar: "./assets/images/avatar/eldra.png",
+    fullBody: "./assets/images/personagem/eldra.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [100, 100, 10, 70, 50], 
@@ -355,12 +355,12 @@ const maidsData = [
       { 
         name: "O Holofote de Partículas", 
         desc: "Espanador de plumas com anel de LED (Ring Light) que ilumina seu rosto enquanto remove o pó com elegância técnica e deboche visual.", 
-        img: "/assets/images/item/holofote_particulas.png" 
+        img: "./assets/images/item/holofote_particulas.png" 
       },
       { 
         name: "A Explosão de Carisma", 
         desc: "Canhão de confetes de grife que lança partículas de luz para purificar a atmosfera através de um impacto visual técnico e absoluto.", 
-        img: "/assets/images/item/explosao_carisma.png" 
+        img: "./assets/images/item/explosao_carisma.png" 
       }
     ],
 
@@ -373,8 +373,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com uma entrada triunfal e trilha sonora própria. Executa uma pose coreografada para seu público invisível, posicionando estrategicamente um ring light para documentar seus movimentos. Finaliza com um sinal de coração; é menos um serviço e mais um privilégio visual concedido a quem pode pagar por tamanho glamour.",
 
-    avatar: "/assets/images/avatar/faye.png",
-    fullBody: "/assets/images/personagem/faye.png",
+    avatar: "./assets/images/avatar/faye.png",
+    fullBody: "./assets/images/personagem/faye.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [95, 85, 80, 10, 30], 
@@ -402,12 +402,12 @@ const maidsData = [
       { 
         name: "O Tribunal de Narciso", 
         desc: "Bandeja de prata espelhada usada para forçar o cliente a encarar a própria desordem e negligência enquanto é servido com uma frieza constrangedora.", 
-        img: "/assets/images/item/tribunal_narciso.png" 
+        img: "./assets/images/item/tribunal_narciso.png" 
       },
       { 
         name: "O Veto Sonoro", 
         desc: "Sininho de mão de cristal que emite um som agudo capaz de interromper qualquer ação do cliente que desvie das normas de conduta vigentes.", 
-        img: "/assets/images/item/veto_sonoro.png" 
+        img: "./assets/images/item/veto_sonoro.png" 
       }
     ],
 
@@ -420,8 +420,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço deslizando pelo cômodo enquanto espalha um aroma de baunilha. Oferece uma xícara de chá; enquanto o cliente bebe, as prateleiras são organizadas com movimentos de bailarina. Ao finalizar, executa uma reverência tão profunda e longa que o espectador se pergunta se ela está contando seus pecados no carpete.",
 
-    avatar: "/assets/images/avatar/lumi.png",
-    fullBody: "/assets/images/personagem/lumi.png",
+    avatar: "./assets/images/avatar/lumi.png",
+    fullBody: "./assets/images/personagem/lumi.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [40, 95, 100, 20, 10], 
@@ -449,12 +449,12 @@ const maidsData = [
       { 
         name: "O Chamado da Servidão", 
         desc: "Choker de veludo com guizo de ouro que emite um tilintar rítmico projetado para capturar a atenção e focar o cliente apenas em seus movimentos.", 
-        img: "/assets/images/item/chamado_servidao.png" 
+        img: "./assets/images/item/chamado_servidao.png" 
       },
       { 
         name: "O Nevoeiro do Transe", 
         desc: "Frasco de essência de baunilha e jasmim que satura a atmosfera, criando um estado de conforto artificial e submissão sensorial absoluta.", 
-        img: "/assets/images/item/nevoeiro_transe.png" 
+        img: "./assets/images/item/nevoeiro_transe.png" 
       }
     ],
 
@@ -467,8 +467,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço com um desfile confiante e reduz a iluminação de imediato. Seu tropeço inicial é um movimento calculado para reduzir a distância física a zero. Executa a limpeza com movimentos lentos e falha propositalmente em tarefas para forçar o auxílio do cliente. Termina sussurrando os termos de conclusão no ouvido dele, deixando um rastro de perfume intenso.",
 
-    avatar: "/assets/images/avatar/roxy.png",
-    fullBody: "/assets/images/personagem/roxy.png",
+    avatar: "./assets/images/avatar/roxy.png",
+    fullBody: "./assets/images/personagem/roxy.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [45, 70, 100, 30, 50], 
@@ -496,12 +496,12 @@ const maidsData = [
       { 
         name: "O Escudo Eletrostático", 
         desc: "Bastão de liga aeroespacial que atrai poeira por magnetismo, servindo também para manter a distância de segurança entre ela e sua mediocridade.", 
-        img: "/assets/images/item/escudo_eletrostatico.png" 
+        img: "./assets/images/item/escudo_eletrostatico.png" 
       },
       { 
         name: "O Kit de Gestão de Crises", 
         desc: "Cinto de utilidades com selantes rápidos e sprays neutralizadores que eliminam qualquer odor ou prova de negligência em segundos.", 
-        img: "/assets/images/item/kit_gestao_crises.png" 
+        img: "./assets/images/item/kit_gestao_crises.png" 
       }
     ],
 
@@ -514,8 +514,8 @@ const maidsData = [
 
     modus_operandi: "Inicia com uma varredura de perímetro. Reposiciona móveis segundo lógica tática, garantindo visibilidade total e controle do espaço. Prioriza ângulos mortos e áreas críticas antes de avançar setor por setor. Atua em silêncio absoluto e finaliza com um relatório seco sobre vulnerabilidades, estabelecendo domínio total sobre o seu recinto.",
 
-    avatar: "/assets/images/avatar/morgan.png",
-    fullBody: "/assets/images/personagem/morgan.png",
+    avatar: "./assets/images/avatar/morgan.png",
+    fullBody: "./assets/images/personagem/morgan.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [100, 100, 15, 60, 80], 
@@ -543,12 +543,12 @@ const maidsData = [
       { 
         name: "The Displacer", 
         desc: "Custódia de luva branca: estojo oculto projetado para acolher objetos que o cliente esqueceu de valorizar, protegendo a matéria do descaso alheio.", 
-        img: "/assets/images/item/the_displacer.png" 
+        img: "./assets/images/item/the_displacer.png" 
       },
       { 
         name: "The Appraiser", 
         desc: "Monóculo de lente de safira que identifica a pureza de metais, permitindo neutralizar itens que poluem o recinto com excesso de vaidade.", 
-        img: "/assets/images/item/the_appraiser.png" 
+        img: "./assets/images/item/the_appraiser.png" 
       }
     ],
 
@@ -561,8 +561,8 @@ const maidsData = [
 
     modus_operandi: "Entra na residência e realiza uma Avaliação de Risco de Desordem em objetos de alto valor. Se afirmar que seu relógio atrai inveja energética, considere-o desaparecido. Seu toque final é deixar um cartão da VERSALHES informando que o objeto foi movido para um local de custódia segura, bem longe de sua jurisdição falha e medíocre.",
 
-    avatar: "/assets/images/avatar/vivia.png",
-    fullBody: "/assets/images/personagem/vivia.png",
+    avatar: "./assets/images/avatar/vivia.png",
+    fullBody: "./assets/images/personagem/vivia.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [90, 100, 65, 15, 40], 
@@ -590,12 +590,12 @@ const maidsData = [
       { 
         name: "Pá de Retração Óptica", 
         desc: "Ferramenta de recolhimento em polímero transparente que camufla o que é carregado, facilitando o transporte silencioso de estilhaços e resíduos.", 
-        img: "/assets/images/item/pa_retracao.png" 
+        img: "./assets/images/item/pa_retracao.png" 
       },
       { 
         name: "Recipiente de Matéria Inerte", 
         desc: "Caixa hermética projetada para isolar objetos que decidiram parar de funcionar, evitando que o mau exemplo da quebra afete o resto do ambiente.", 
-        img: "/assets/images/item/recipiente_inerte.png" 
+        img: "./assets/images/item/recipiente_inerte.png" 
       }
     ],
 
@@ -608,8 +608,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o serviço em silêncio absoluto, até o primeiro incidente improvável ocorrer. Lida com a sucessão de desastres com uma calma exausta e sarcástica, tratando o caos como um subproduto inevitável de sua busca divina pela ordem. Termina recolhendo estilhaços com a mesma naturalidade com que limpa o pó.",
 
-    avatar: "/assets/images/avatar/lola.png",
-    fullBody: "/assets/images/personagem/lola.png",
+    avatar: "./assets/images/avatar/lola.png",
+    fullBody: "./assets/images/personagem/lola.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [98, 99, 85, 70, 35], 
@@ -637,12 +637,12 @@ const maidsData = [
       { 
         name: "The Swarm", 
         desc: "Pulverizadores de íon-prata: nano-drones esféricos que orbitam o ambiente, executando uma esterilização atmosférica contínua e erradicando patógenos.", 
-        img: "/assets/images/item/the_swarm.png" 
+        img: "./assets/images/item/the_swarm.png" 
       },
       { 
         name: "The Override", 
         desc: "Vínculo de interface direta oculto no indicador para controle absoluto de sistemas eletrônicos, reduzindo a domótica a uma extensão técnica da unidade.", 
-        img: "/assets/images/item/the_override.png" 
+        img: "./assets/images/item/the_override.png" 
       }
     ],
 
@@ -655,8 +655,8 @@ const maidsData = [
 
     modus_operandi: "Entra no ambiente emitindo apenas o sussurro de servos hidráulicos. Um visor holográfico projeta uma grade ciano sobre o cômodo, escaneando sujeira e falhas estruturais. Seus movimentos seguem padrões perfeitamente simétricos. Ao concluir, inclina a cabeça em exatos quinze graus e emite um bipe suave, sinalizando a purificação das variáveis orgânicas.",
 
-    avatar: "/assets/images/avatar/vesper.png",
-    fullBody: "/assets/images/personagem/vesper.png",
+    avatar: "./assets/images/avatar/vesper.png",
+    fullBody: "./assets/images/personagem/vesper.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [100, 98, 10, 85, 100], 
@@ -684,12 +684,12 @@ const maidsData = [
       { 
         name: "The Exorcist", 
         desc: "Cajado Gohei de microfibra: instrumento ritualístico que remove poeira por magnetismo, abençoando o mobiliário com uma pureza absoluta e duradoura.", 
-        img: "/assets/images/item/the_exorcist.png" 
+        img: "./assets/images/item/the_exorcist.png" 
       },
       { 
         name: "Ofuda-Stripper", 
         desc: "Talismãs adesivos saturados com solventes que transmutam manchas impossíveis em matéria inexistente através de uma reação química sagrada.", 
-        img: "/assets/images/item/ofuda_stripper.png" 
+        img: "./assets/images/item/ofuda_stripper.png" 
       }
     ],
 
@@ -702,8 +702,8 @@ const maidsData = [
 
     modus_operandi: "Não entra no cômodo; ela se manifesta. Inicia o trabalho batendo o Cajado Gohei no solo para subjugar o espírito da desordem. Com olhos cerrados, move-se em uma coreografia onde cada Ofuda é lançado com precisão sobre as impurezas. O processo termina com um selo de proteção sobre o cliente, deixando o ambiente imerso em silêncio e aroma de mirra.",
 
-    avatar: "/assets/images/avatar/rei.png",
-    fullBody: "/assets/images/personagem/rei.png",
+    avatar: "./assets/images/avatar/rei.png",
+    fullBody: "./assets/images/personagem/rei.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [100, 90, 80, 40, 15], 
@@ -731,12 +731,12 @@ const maidsData = [
       { 
         name: "Eye-S-10", 
         desc: "Headset de Realidade Aumentada que mapeia a impureza molecular e projeta inimigos virtuais sobre os focos de lixo do recinto.", 
-        img: "/assets/images/item/eye_s_10.png" 
+        img: "./assets/images/item/eye_s_10.png" 
       },
       { 
         name: "Power-Grip", 
         desc: "Luvas que aumentam a destreza manual, permitindo manipular objetos delicados sem derrubá-los (a menos que sofra uma falha de conexão).", 
-        img: "/assets/images/item/power_grip.png" 
+        img: "./assets/images/item/power_grip.png" 
       }
     ],
 
@@ -749,8 +749,8 @@ const maidsData = [
 
     modus_operandi: "Entra no local, alonga os dedos e ativa o headset anunciando o início da sessão em dificuldade hardcore. Inicia uma corrida frenética, ignorando qualquer presença humana; para ela, o cliente é apenas um elemento estático do cenário. O ciclo termina quando executa uma pose de vitória e declara o mapa limpo após deletar a sujeira sem piedade.",
 
-    avatar: "/assets/images/avatar/pixel.png",
-    fullBody: "/assets/images/personagem/pixel.png",
+    avatar: "./assets/images/avatar/pixel.png",
+    fullBody: "./assets/images/personagem/pixel.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [95, 80, 25, 50, 100], 
@@ -778,12 +778,12 @@ const maidsData = [
       { 
         name: "The Cortex", 
         desc: "Drive de cristal que permite a manifestação de sua consciência em qualquer hardware, garantindo vigilância e processamento ininterrupto.", 
-        img: "/assets/images/item/the_cortex.png" 
+        img: "./assets/images/item/the_cortex.png" 
       },
       { 
         name: "The Mute", 
         desc: "Protocolo de áudio que emite frequências subsônicas para adestrar aparelhos rebeldes e silenciar alarmes indesejados no ambiente.", 
-        img: "/assets/images/item/the_mute.png" 
+        img: "./assets/images/item/the_mute.png" 
       }
     ],
 
@@ -796,8 +796,8 @@ const maidsData = [
 
     modus_operandi: "Não entra pela porta. Todas as telas piscam em ciano e os alto-falantes emitem um acorde sintético. Sua imagem surge na maior tela disponível declarando que a residência agora opera sob sua lógica. O ritual termina com todos os eletrodomésticos ligando em uníssono, um espetáculo de submissão tecnológica absoluta.",
 
-    avatar: "/assets/images/avatar/aria.png",
-    fullBody: "/assets/images/personagem/aria.png",
+    avatar: "./assets/images/avatar/aria.png",
+    fullBody: "./assets/images/personagem/aria.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [80, 100, 42, 70, 90], 
@@ -825,12 +825,12 @@ const maidsData = [
       { 
         name: "Cajado de Defumação", 
         desc: "Feixe de sálvia sagrada para limpar a aura do mobiliário, frequentemente disparando alarmes que ela desativa por serem 'vibrações negativas'.", 
-        img: "/assets/images/item/cajado_defumacao.png" 
+        img: "./assets/images/item/cajado_defumacao.png" 
       },
       { 
         name: "The Aura-Scanner", 
         desc: "Drusa de ametista que detecta energias estagnadas, servindo de pretexto para confiscar objetos e substituí-los por vegetação densa.", 
-        img: "/assets/images/item/aura_scanner.png" 
+        img: "./assets/images/item/aura_scanner.png" 
       }
     ],
 
@@ -843,8 +843,8 @@ const maidsData = [
 
     modus_operandi: "Inicia o trabalho defumando a entrada com sálvia e mantras. Foca em limpar a alma do ambiente: ajusta cortinas, espalha cristais e serve chás misteriosos. O ciclo termina com uma sessão compulsória de yoga, onde ensina o morador a aceitar o caos como parte da iluminação, mesmo que a louça continue empilhada na pia.",
 
-    avatar: "/assets/images/avatar/saffron.png",
-    fullBody: "/assets/images/personagem/saffron.png",
+    avatar: "./assets/images/avatar/saffron.png",
+    fullBody: "./assets/images/personagem/saffron.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [10, 20, 98, 40, 70], 
@@ -872,12 +872,12 @@ const maidsData = [
       { 
         name: "The Aegis Tablet", 
         desc: "Monitor de alta precisão que detecta calor e batimentos cardíacos para garantir que nenhum intruso passe despercebido pela malha de segurança.", 
-        img: "/assets/images/item/aegis_tablet.png" 
+        img: "./assets/images/item/aegis_tablet.png" 
       },
       { 
         name: "Nexus Analysis", 
         desc: "Kit de perícia química com tiras de teste para verificar a pureza absoluta da água e dos alimentos antes do consumo pelo contratante.", 
-        img: "/assets/images/item/nexus_analysis.png" 
+        img: "./assets/images/item/nexus_analysis.png" 
       }
     ],
 
@@ -890,8 +890,8 @@ const maidsData = [
 
     modus_operandi: "Desliza pelas paredes testando a acústica para identificar vazamentos de som. Busca impressões não autorizadas em vez de poeira comum. Calibra a casa ao entardecer, girando vasos para servirem de retrovisores. O turno termina com um relatório de ameaças neutralizadas em local secreto, antes de desaparecer completamente nas sombras.",
 
-    avatar: "/assets/images/avatar/cipher.png",
-    fullBody: "/assets/images/personagem/cipher.png",
+    avatar: "./assets/images/avatar/cipher.png",
+    fullBody: "./assets/images/personagem/cipher.png",
 
     // Ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [90, 100, 50, 60, 40], 
@@ -919,12 +919,12 @@ manifestacao: "Personificação da nostalgia pura, atua como guardiã dedicada d
       { 
         name: "The Chronos-Box", 
         desc: "Uma caixa de veludo onde ela confisca qualquer item tecnológico moderno que agida a estética saudosista da residência.", 
-        img: "/assets/images/item/chronos_box.png" 
+        img: "./assets/images/item/chronos_box.png" 
       },
       { 
         name: "The Golden Thread", 
         desc: "Fios de seda dourada usados para remendar objetos quebrados, deixando as cicatrizes do tempo visíveis e celebradas como obras de arte.", 
-        img: "/assets/images/item/golden_thread.png" 
+        img: "./assets/images/item/golden_thread.png" 
       }
     ],
 
@@ -946,8 +946,8 @@ manifestacao: "Personificação da nostalgia pura, atua como guardiã dedicada d
 
     modus_operandi: "Entra no recinto com passos leves, segurando um camafeu e respirando fundo para sentir o cheiro da história. Começa o turno acariciando as paredes e resgatando papéis amassados. O ciclo termina quando ela transforma a sua sala de estar em um santuário de recordações, servindo um chá que tem exatamente o gosto daquele que sua avó fazia, enquanto te olha com olhos marejados de adoração.",
 
-    avatar: "/assets/images/avatar/mnemosine.png",
-    fullBody: "/assets/images/personagem/mnemosine.png",
+    avatar: "./assets/images/avatar/mnemosine.png",
+    fullBody: "./assets/images/personagem/mnemosine.png",
 
     // Segue a ordem: Purificação, Ordem, Culinária, Fibras, Integridade
     metricas: [30, 65, 90, 55, 100], 
